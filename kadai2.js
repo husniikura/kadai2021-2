@@ -27,7 +27,7 @@ let data = [949,  686,  648,  453,  484,  486,  216,  366,  481,  362,
 for (var i= 0; i < N; i++){
     for (var j = N - 1; j > i; j--){
         if (data[j] < data[j - 1]){
-            swap(data, j, j - 1);
+            swap(j, j - 1);
         }
     }
 }
