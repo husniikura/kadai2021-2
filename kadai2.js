@@ -10,10 +10,10 @@ let data = [949,  686,  648,  453,  484,  486,  216,  366,  481,  362,
   254,  244,  721,  184,  554,  35,  946,  653,  158,  676
   ];
   let N = data.length;
-  function swap(array, i, j) {
-      let temp = array[j];
-      array[j] = array[i];
-      array[i] = temp;
+  function swap(i, j) {
+      let temp = data[j];
+      data[j] = data[i];
+      data[i] = temp;
   }
    function output() {
        const divideBy = 10;
