@@ -16,6 +16,7 @@ let data = [
     array[j] = array[i];
     array[i] = temp;
   }
+
   let i,j;
   for(i=(data.length-1);i>=0;i--){
       for(j=0;j<i;j++){
